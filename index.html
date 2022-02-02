@@ -65,7 +65,13 @@
 
     </div>
     <!-- END PRELOADER AREA -->
-    
+    <audio id="player" src="cancion.mp3"></audio>
+<div>
+        <button onclick="document.getElementById('player').play()">Play</button>
+        <button onclick="document.getElementById('player').pause()">Pausa</button>
+        <button onclick="document.getElementById('player').volume+=0.1">Volumen +</button>
+        <button onclick="document.getElementById('player').volume-=0.1">Volumen -</button>
+</div>
      <!-- Portada -->
     <section class="portada">
 
@@ -130,7 +136,7 @@
 
                                    
                             <div id="dias" class="reloj-col">
-                        <h6><span class="number">39</span></h6>
+                            <span class="number">39</span>
                             <span class="time">días</span>
                             
                                                      
